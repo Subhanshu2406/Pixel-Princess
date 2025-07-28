@@ -1,0 +1,45 @@
+# .gitignore for C/C++ Projects
+
+# Compiled Executables
+# --------------------
+# Ignore the specific executable from our project
+pixel_princess
+
+# Ignore common executable extensions on Windows
+*.exe
+*.out
+*.app
+
+# Object and Library Files
+# ------------------------
+# Ignore intermediate object files
+*.o
+*.obj
+
+# Ignore compiled library files
+*.a
+*.so
+*.lib
+*.dll
+
+# Build Directories
+# -----------------
+# It's a best practice to compile your project into a build/ or bin/ folder.
+# These lines will ignore those entire directories.
+build/
+bin/
+
+# Common System & Editor Junk Files
+# ---------------------------------
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Vim
+*.swp
+*~
+
+# VS Code
+.vscode/
